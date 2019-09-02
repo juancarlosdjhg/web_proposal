@@ -1,0 +1,33 @@
+html,body{height:100%;width:100%;}
+#pop {
+   height:100%;
+   width:100%;
+   z-index:999;
+   margin: 5% 38%;
+}
+#cerrar {
+   float:right;
+   margin-right:-300px;
+   cursor:pointer;
+   font:Verdana, Arial, Helvetica, sans-serif;
+   font-size:12px;
+   font-weight:bold;
+   color:#FFFFFF;
+   background-color:#666666;
+   width:12px;
+   position:relative;
+   margin-top:-1px;
+   text-align:center;
+}
+.capa{
+
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 100;
+   width: 100%;
+   height: 100%;
+   background: rgba(0,0,0,0.5);
+
+}

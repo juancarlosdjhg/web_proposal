@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- */
+
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+  background: rgba(0,0,0,0.6);
+}
+
+input {
+	font-size: inherit;
+	margin: 0;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+/* ---------- LOGIN ---------- */
+
+#login {
+	width: 242px;
+	background: rgb(235, 235, 235) url(../images/user-2.png) no-repeat;
+	background-position: 50% 10%;
+	padding:180px 50px 50px 50px; 
+	border-radius: 5px;
+	font: 87.5%/1.5em sans-serif;
+}
+
+#login span {
+	color: #676767;
+	display: block;
+	height: 48px;
+	line-height: 48px;
+	position: absolute;
+	text-align: center;
+	width: 36px;
+}
+
+#login input {
+	border: none;
+	height: 48px;
+	outline: none;
+}
+
+#login input[type="text"] {
+	background: #dedede;
+	border-top: 1px solid rgba(0,0,0,0.2);
+	border-right: 1px solid rgba(0,0,0,0.2);
+	border-left: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px 5px 0 0;
+	color: #363636;
+	padding-left: 36px;
+	width: 240px;
+}
+
+#login input[type="text"]:hover,#login input[type="password"]:hover{ 
+	background: rgba(0,0,0,0.1);
+	transition: 0.3s all ease-out;
+	-webkit-transition: 0.3s all ease-out;
+	-moz-transition: 0.3s all ease-out;
+
+}
+.login-title{
+	text-transform: capitalize;
+	font-size: 1.5em;
+	color: #363636;
+	font-weight: 100;
+	margin-bottom:3%;
+	text-align:center;
+	cursor:pointer;
+}
+#webmaster-popup{
+left:48%;
+top:95%;
+position: fixed;
+text-transform: capitalize;
+font-size: 1.5em;
+color: rgb(235,235,235);
+
+font: 87.5%/1.5em sans-serif;
+font-family:sans-serif;
+font-weight: 100;
+margin-bottom:3%;
+text-align:center;
+cursor:pointer;
+}
+#login input[type="password"] {
+	background-color: #dedede;
+	border-top: 1px solid #828282;
+	border-right: 1px solid rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-left: 1px solid rgba(0,0,0,0.2);
+	border-radius: 0 0 5px 5px;
+	color: #363636;
+	margin-bottom: 20px;
+	padding-left: 36px;
+	width: 240px;
+}
+
+#login input[type="submit"] {
+	background: rgb(50, 162, 227);
+	border-bottom: 4px solid rgba(0,0,0,0.13);
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 240px;
+	cursor:pointer;
+}
+
+#login input[type="submit"]:hover {
+	background: #228AC6;
+	transition: 0.3s all ease-out;
+	-webkit-transition: 0.3s all ease-out;
+	-moz-transition: 0.3s all ease-out;
+}
